@@ -4,7 +4,7 @@ A fun and simple meme generator built with HTML, CSS, and JavaScript. This proje
 
 ## 📸 Meme Generator Preview
 
-![Meme Generator Preview](./assets/img/random-meme-generator-preview.png)
+<img src="./assets/img/random-meme-generator-preview.png" width="400" height="auto" alt="Calculator Preview">
 
 ## ⚙️ Features
 

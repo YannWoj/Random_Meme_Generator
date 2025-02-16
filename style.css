@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Comic Neue", serif;
+   font-weight: 600;
+   font-style: normal;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #222;
+   color: white;
+}
+
+.container {
+   text-align: center;
+   background: #333;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   width: 90%;
+   max-width: 500px;
+   position: relative;
+   height: 500px;
+}
+
+h1 {
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+
+#loader {
+   display: none;
+   font-size: 18px;
+   margin-bottom: 15px;
+   color: #ffcc00;
+}
+
+.meme-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 320px;
+   overflow: hidden;
+}
+
+#memeImage {
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   border-radius: 8px;
+   display: none;
+   border: 3px solid #ffcc00;
+}
+
+#generateMeme {
+   background-color: #ffcc00;
+   color: black;
+   border: none;
+   padding: 12px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background 0.3s;
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+#generateMeme:hover {
+   background-color: #e6b800;
+}
